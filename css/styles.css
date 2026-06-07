@@ -1,0 +1,65 @@
+:root {
+  --primari-text-color: #2E2F42;
+  --title-text-color: #434455;
+  --button-text-clor: #4D5AE5;
+}
+/* Палітра кольорів для роботи */
+#2E2F42
+ 
+/* Цвет лого WEB #4D5AE5 */
+ /* Цвет лого STUDIO #2E2F42 */
+/* Цвет основного текста и шапки 2E2F42# */
+/* Вторичный цвет фона #F4F4FD */
+ /* #434455 вторичный цвет */
+ /* Цвет лого футера #4D5AE5 */
+/* #F4F4FD цвет футера */
+
+
+
+body {
+    background-color: #fff;
+    color: var(--primari-text-color);
+}
+/* В случае если надо будет убрать точки 
+ul {list-style: none} */
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo-web {
+ color: var(--button-text-clor);
+}
+.logo-studio {
+  color: var(--primari-text-color);
+}
+
+/* Site-nav */
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--primari-text-color);
+}
+/* Герой */
+.button-hero {
+  background-color: var(--button-text-clor);
+    color: #FFFFFF;
+  font-size: 25px;
+  padding: 16px 16px;
+}
+
+
+/* Переваги */
+
+.section-title {
+  color: var(--primari-text-color);
+}
+.feature-list title {
+  color: var(--title-text-color);
+}
+
+/* Що ми робимо/ 
+Не зовсім розумію чи тут щось потрібно */
+/* Наша команда/
+Не зовсім розумію чи тут щось потрібно*/
+
+
